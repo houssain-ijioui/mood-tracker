@@ -16,3 +16,5 @@ test('renders mood when set', () => {
   fireEvent.click(moodButton('Sad')); // Click on the Sad button
   expect(screen.getByTestId('mood')).toHaveTextContent('You are Sad'); // Assert that mood element is present and displaying correct mood
 });
+
+
